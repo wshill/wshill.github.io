@@ -1,37 +1,145 @@
-<!DOCTYPE html>
-<html>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-<style>
-    .steve {
-        /*background-color: lightblue;*/
-        background: url("./images/dorado.jpg") no-repeat center center fixed;
-    }
-    
-    #header1 {
-        text-align: right;
-    }
-</style>
+<!doctype html>
+<html lang="en">
 
-<body class="steve">
-    <!-- Header Section -->
-    <div id="header1" class="container">
-        <div class="well-sm alert alert-info">
-            <button type="button" class="btn btn-primary"><i class="fa fa-github"></i> gitHub<a href="https://github.com/wshill"></a></button>
-            <button type="button" class="btn btn-primary"><i class="fa fa-facebook"></i> Facebook<a href="https://www.facebook.com/hill.wscott"></a></button>
-            <button type="button" class="btn btn-primary"><i class="fa fa-info"></i> About<a href=#></a></button>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Title</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="./css/style.css">
+
+    </head>
+
+    <body class="steve">
+        <section id="cover">
+            <div id="cover-caption">
+                <div class="container">
+                    <div class="col-sm-10 offset-sm-1">
+                        <h1 class="display-3">W.S. Hill Designs</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eius quo deserunt similique nemo enim alias ut ex laborum repellendus quas, earum asperiores aperiam molestias rem iusto, eveniet recusandae, hic!</p>
+                    </div>
+                </div>
+            </div>
+        </section>   
+
+
+        <nav id="nav-main" class="navbar navbar-toggleable-md">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-togggler-icon"></span>
+            </button> <a href="#" class="navbar-brand">Your Logo</a>
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+
+                <form action="" class="form-inline my2 my-lg-0">
+                    <input type="text" class="form-control mr-sm-2" placeholder="Search">
+                    <i class="fa fa-search fa-inverse"></i>
+                </form>
+
+
+            </div>
+        </nav>     
+
+
+        <section id="projects">
+            <div class="section-content">
+                <div class="container">
+                    <h2>What I've Done</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam culpa corporis quis molestias, expedita quo? Ex ea perspiciatis officia quos, laboriosam velit deserunt ab debitis, architecto ad beatae natus fuga.</p>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card-deck">
+                                <div class="card">
+                                    <img src="/images/charms.png" alt="charms and wards thumbnail image" class="card-img-top">
+                                    <div class="card-block">
+                                        <h5 class="card-title">Story Witch Charms &amp; Wards</h5>
+                                        <p class="card-text">This is an ecommerce site designed and built on OpenCart The site was inteded to provide an outlet for fan merchandise and special offerings of the author such as signed copies of books, custom beverage mugs, t-shirts, et.</p>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img src="/images/storywitch.png" alt="" class="card-img-top">
+                                    <div class="card-block">
+                                        <h5 class="card-title">StoryWitch.com</h5>
+                                        <p class="card-text">An author site built on Drupal 7 providing easy navigation through the authors series of books allowing the user to drill down to a specific title while also having access to chronology, free excerpts, etc. The banner incorporates a Javascript image slider featuring slide indicators and rotates through six banner images. </p>
+                                    </div>
+
+                                </div>
+                                <div class="card">
+                                    <img src="/images/wshill.png" alt="wshill.com thumbnail image" class="card-img-top">
+                                    <div class="card-block">
+                                        <h5 class="card-title">W.S. Hill Mechanical Design</h5>
+                                        <p class="card-text">This is a site I designed to promote my own mechanical design business. It's intentionally spartan and clean, focusing on presenting a brief description of the business, services available, and showcasing completed mechanical design projects.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="charms">
+            <div class="container">
+                <div class="col-sm-12">
+                    <h1 class="display-4">Story Witch Charms &amp; Wards</h1>
+                    <img src="/images/charms-900px.png" alt="" class="card-img-top">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eius quo deserunt similique nemo enim alias ut ex laborum repellendus quas, earum asperiores aperiam molestias rem iusto, eveniet recusandae, hic!</p>
+                </div>
+            </div>
+
+        </section>
+        <section id="storywitch">
+            <div class="container">
+                <div class="col-sm-12">
+                    <h1 class="display-4">StoryWitch.com</h1>
+                    <img src="/images/storywitch-900px.png" alt="" class="card-img-top">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eius quo deserunt similique nemo enim alias ut ex laborum repellendus quas, earum asperiores aperiam molestias rem iusto, eveniet recusandae, hic!</p>
+                </div>
+            </div>
+
+        </section>
+        <section id="wshill">
+            <div class="container">
+                <div class="col-sm-12">
+                    <h1 class="display-4">W.S. Hill Mechanical Design</h1>
+                    <img src="/images/wshill-900px.png" alt="" class="card-img-top">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eius quo deserunt similique nemo enim alias ut ex laborum repellendus quas, earum asperiores aperiam molestias rem iusto, eveniet recusandae, hic!</p>
+                </div>
+            </div>
+
+        </section>
+        <!-- Header Section -->
+
+        <div id="header1" class="container">
+            <div>
+                <button type="button" class="btn btn-primary"><i class="fa fa-github"></i><a href="https://github.com/wshill"></a></button>
+                <button type="button" class="btn btn-primary"><i class="fa fa-facebook"></i><a href="https://www.facebook.com/hill.wscott"></a></button>
+                <button type="button" class="btn btn-primary"><i class="fa fa-info"></i><a href=#></a></button>
+            </div>
         </div>
-    </div>
-    <p>Background not showing up! Why?!</p>
-    <!-- Banner Section -->
-    <!--<div id="Banner1" class="col-xs-12">
-        <img class="img-responsive" src="./images/dorado.jpg" width="100%" alt="dorado.jpg" />
-    </div>-->
-</body>
+
+        <!-- Banner Section -->
+        <!--
+<div id="Banner1" class="col-xs-12">
+<img class="img-responsive" src="./images/dorado.jpg" width="100%" alt="dorado.jpg" />
+</div>
+-->
+        <!-- Script import section. -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    </body>
 
 </html>

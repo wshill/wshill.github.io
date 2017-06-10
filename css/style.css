@@ -1,0 +1,43 @@
+/*style.css*/
+
+.steve {
+    background-color: lightblue;
+    max-width: 100%;
+    height: auto;
+    background: #222 url('/images/dorado.jpg') no-repeat center center fixed;
+    color: white;
+}
+
+
+#cover {
+/*    background: rgba(64, 64, 64, 0.3);*/
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-main {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    
+}
+
+#projects {
+    color: white;
+}
+
+.card {
+    color: darkslategrey;
+    width: 345px;
+    height: auto;
+    max-width: 100%;
+}
+
+#header1 {
+    text-align: right;
+}
+
