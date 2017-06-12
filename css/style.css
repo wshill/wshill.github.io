@@ -44,4 +44,5 @@
 #concrete5 {
     /* Provide clearance for fixed navbar (50px) */
     padding-top: 50px;
+    padding-bottom: 50px;
 }
