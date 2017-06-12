@@ -2,144 +2,156 @@
 <html lang="en">
 
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
 
-    </head>
+</head>
 
-    <body class="steve">
-        <section id="cover">
-            <div id="cover-caption">
-                <div class="container">
-                    <div class="col-sm-10 offset-sm-1">
-                        <h1 class="display-3">W.S. Hill Designs</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eius quo deserunt similique nemo enim alias ut ex laborum repellendus quas, earum asperiores aperiam molestias rem iusto, eveniet recusandae, hic!</p>
-                    </div>
+<nav id="nav-main" class="navbar navbar-toggleable-md fixed-top navbar-inverse bg-primary">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <a href="#" class="navbar-brand">Your Logo</a>
+    <div id="navbarContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="http://wshill.github.io" class="nav-link"><i class="fa fa-github"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="https://www.facebook.com/hill.wscott" class="nav-link"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled"><i class="fa fa-info-circle"></i></a>
+            </li>
+
+            <!--Navbar Dropdown Project List-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="#opencart">OpenCart</a>
+                    <a class="dropdown-item" href="#drupal">Drupal 7</a>
+                    <a class="dropdown-item" href="#concrete5">Concrete5</a>
+                </div>
+            </li>
+        </ul>
+
+        <!--Search Form-->
+        <form action="" class="form-inline my2 my-lg-0">
+            <input type="text" class="form-control mr-sm-2" placeholder="Search">
+            <i class="fa fa-search fa-inverse"></i>
+        </form>
+    </div>
+</nav>
+
+
+<!--Great and powerful, Steve rules and watches over all! ;)-->
+
+<body class="steve">
+    <section id="cover">
+        <div id="cover-caption">
+            <div class="container">
+                <div class="col-sm-10 offset-sm-1">
+                    <h1 class="display-3">W.S. Hill Designs</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eius quo deserunt similique nemo enim alias ut ex laborum repellendus quas, earum asperiores aperiam molestias rem iusto, eveniet recusandae, hic!</p>
                 </div>
             </div>
-        </section>   
+        </div>
+    </section>
 
+    <!--Projects Section-->
+    <section id="projects">
+        <div class="section-content">
+            <div class="container">
+                <h2>What I've Done</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam culpa corporis quis molestias, expedita quo? Ex ea perspiciatis officia quos, laboriosam velit deserunt ab debitis, architecto ad beatae natus fuga.</p>
 
-        <nav id="nav-main" class="navbar navbar-toggleable-md">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-togggler-icon"></span>
-            </button> <a href="#" class="navbar-brand">Your Logo</a>
-            <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link disabled">Disabled</a>
-                    </li>
-                </ul>
+                <!--Card Deck for project thumbnails.-->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card-deck">
 
-                <form action="" class="form-inline my2 my-lg-0">
-                    <input type="text" class="form-control mr-sm-2" placeholder="Search">
-                    <i class="fa fa-search fa-inverse"></i>
-                </form>
-
-
-            </div>
-        </nav>     
-
-
-        <section id="projects">
-            <div class="section-content">
-                <div class="container">
-                    <h2>What I've Done</h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam culpa corporis quis molestias, expedita quo? Ex ea perspiciatis officia quos, laboriosam velit deserunt ab debitis, architecto ad beatae natus fuga.</p>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="card-deck">
-                                <div class="card">
-                                    <img src="/images/charms.png" alt="charms and wards thumbnail image" class="card-img-top">
-                                    <div class="card-block">
-                                        <h5 class="card-title">Story Witch Charms &amp; Wards</h5>
-                                        <p class="card-text">This is an ecommerce site designed and built on OpenCart The site was inteded to provide an outlet for fan merchandise and special offerings of the author such as signed copies of books, custom beverage mugs, t-shirts, et.</p>
-                                    </div>
+                            <!--OpenCart Card-->
+                            <div class="card">
+                                <a href="#opencart"><img src="/images/charms.png" alt="open cart project thumbnail" class="card-img-top img-thumbnail"></a>
+                                <div class="card-block">
+                                    <h5 class="card-title">OpenCart</h5>
+                                    <p class="card-text">This is an ecommerce site designed and built on OpenCart The site was inteded to provide an outlet for fan merchandise and special offerings of the author such as signed copies of books, custom beverage mugs, t-shirts, et.</p>
                                 </div>
-                                <div class="card">
-                                    <img src="/images/storywitch.png" alt="" class="card-img-top">
-                                    <div class="card-block">
-                                        <h5 class="card-title">StoryWitch.com</h5>
-                                        <p class="card-text">An author site built on Drupal 7 providing easy navigation through the authors series of books allowing the user to drill down to a specific title while also having access to chronology, free excerpts, etc. The banner incorporates a Javascript image slider featuring slide indicators and rotates through six banner images. </p>
-                                    </div>
+                            </div>
 
+                            <!--Drupal Card-->
+                            <div class="card">
+                                <a href="#drupal"><img src="/images/storywitch.png" alt="drupal project thumbnail" class="img-thumbnail"></a>
+                                <div class="card-block">
+                                    <h5 class="card-title">Drupal</h5>
+                                    <p class="card-text">An author site built on Drupal 7 providing easy navigation through the authors series of books allowing the user to drill down to a specific title while also having access to chronology, free excerpts, etc. The banner incorporates a Javascript image slider featuring slide indicators and rotates through six banner images. </p>
                                 </div>
-                                <div class="card">
-                                    <img src="/images/wshill.png" alt="wshill.com thumbnail image" class="card-img-top">
-                                    <div class="card-block">
-                                        <h5 class="card-title">W.S. Hill Mechanical Design</h5>
-                                        <p class="card-text">This is a site I designed to promote my own mechanical design business. It's intentionally spartan and clean, focusing on presenting a brief description of the business, services available, and showcasing completed mechanical design projects.</p>
-                                    </div>
+                            </div>
 
+                            <!--Concrete5 Card-->
+                            <div class="card">
+                                <a href="#concrete5"><img src="/images/wshill.png" alt="concrete5 project thumbnail" class="card-img-top img-thumbnail"></a>
+                                <div class="card-block">
+                                    <h5 class="card-title">Concrete5</h5>
+                                    <p class="card-text">This is a site I designed to promote my own mechanical design business. It's intentionally spartan and clean, focusing on presenting a brief description of the business, services available, and showcasing completed mechanical design projects.</p>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="charms">
-            <div class="container">
-                <div class="col-sm-12">
-                    <h1 class="display-4">Story Witch Charms &amp; Wards</h1>
-                    <img src="/images/charms-900px.png" alt="" class="card-img-top">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eius quo deserunt similique nemo enim alias ut ex laborum repellendus quas, earum asperiores aperiam molestias rem iusto, eveniet recusandae, hic!</p>
-                </div>
-            </div>
+        </div>
+    </section>
 
-        </section>
-        <section id="storywitch">
-            <div class="container">
-                <div class="col-sm-12">
-                    <h1 class="display-4">StoryWitch.com</h1>
-                    <img src="/images/storywitch-900px.png" alt="" class="card-img-top">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eius quo deserunt similique nemo enim alias ut ex laborum repellendus quas, earum asperiores aperiam molestias rem iusto, eveniet recusandae, hic!</p>
-                </div>
-            </div>
+    <!--OpenCart Project Section-->
 
-        </section>
-        <section id="wshill">
-            <div class="container">
-                <div class="col-sm-12">
-                    <h1 class="display-4">W.S. Hill Mechanical Design</h1>
-                    <img src="/images/wshill-900px.png" alt="" class="card-img-top">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eius quo deserunt similique nemo enim alias ut ex laborum repellendus quas, earum asperiores aperiam molestias rem iusto, eveniet recusandae, hic!</p>
-                </div>
-            </div>
-
-        </section>
-        <!-- Header Section -->
-
-        <div id="header1" class="container">
-            <div>
-                <button type="button" class="btn btn-primary"><i class="fa fa-github"></i><a href="https://github.com/wshill"></a></button>
-                <button type="button" class="btn btn-primary"><i class="fa fa-facebook"></i><a href="https://www.facebook.com/hill.wscott"></a></button>
-                <button type="button" class="btn btn-primary"><i class="fa fa-info"></i><a href=#></a></button>
+    <section id="opencart">
+        <div class="container">
+            <div class="col-sm-12">
+                <h1 class="display-4">Story Witch Charms &amp; Wards</h1>
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eius quo deserunt similique nemo enim alias ut ex laborum repellendus quas, earum asperiores aperiam molestias rem iusto, eveniet recusandae, hic!</p>
+                <a href="http://shop.storywitch.com" title="http://shop.storywitch.com"><img src="/images/charms-900px.png" alt="opencart project image" class="img-fluid mx-auto d-block"></a>
             </div>
         </div>
+    </section>
 
-        <!-- Banner Section -->
-        <!--
-<div id="Banner1" class="col-xs-12">
-<img class="img-responsive" src="./images/dorado.jpg" width="100%" alt="dorado.jpg" />
-</div>
--->
-        <!-- Script import section. -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    </body>
+    <!--Drupal Project Section-->
+
+    <section id="drupal">
+        <div class="container">
+            <div class="col text-center">
+                <h1 class="display-4">StoryWitch.com</h1>
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eius quo deserunt similique nemo enim alias ut ex laborum repellendus quas, earum asperiores aperiam molestias rem iusto, eveniet recusandae, hic!</p>
+                <a href="http://storywitch.com" title="http://storywitch.com"><img src="/images/storywitch-900px.png" alt="drupal project image" class="img-fluid mx-auto d-block"></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Concrete5 Project Section-->
+    <section id="concrete5">
+        <div class="container">
+            <div class="col-sm-12">
+                <h1 class="display-4">W.S. Hill Mechanical Design</h1>
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eius quo deserunt similique nemo enim alias ut ex laborum repellendus quas, earum asperiores aperiam molestias rem iusto, eveniet recusandae, hic!</p>
+                <a href="http://wshill.com" title="http://wshill.com"><img src="/images/wshill-900px.png" alt="concrete5 project image" class="img-fluid mx-auto d-block"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Script import section. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
 
 </html>
