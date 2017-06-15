@@ -1,47 +1,33 @@
 /*style.css*/
 
-.steve {
-    background-color: lightblue;
-    /* Provide clearance for fixed navbar (50px) */
-    padding-top: 50px;
-    max-width: 100%;
-    height: auto;
+body {
     background: #222 url('/images/dorado.jpg') no-repeat center center fixed;
+    background-color: lightblue;
     color: white;
+    /* Provide clearance for fixed navbar (50px) */
+    height: auto;
+    max-width: 100%;
+    padding-top: 50px;
 }
 
-#cover {
-    /*    background: rgba(64, 64, 64, 0.3);*/
-    background-size: cover;
-    color: white;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+.header {
     align-items: center;
-}
-
-
-/*
-#nav-main {
-    background: rgba(0, 0, 64, 1);
-    color: white;
-}*/
-
-#projects {
-    color: white;
+    background-size: cover;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
 }
 
 .card {
     color: darkslategrey;
-    width: 345px;
     height: auto;
     max-width: 100%;
+    width: 345px;
 }
 
-#opencart,
-#drupal,
-#concrete5 {
+.project {
+    padding-bottom: 50px;
     /* Provide clearance for fixed navbar (50px) */
     padding-top: 50px;
 }
