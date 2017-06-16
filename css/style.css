@@ -10,6 +10,10 @@ body {
     padding-top: 50px;
 }
 
+.cover-caption {
+    padding-top: -50px;
+}
+
 .header {
     align-items: center;
     background-size: cover;
@@ -21,9 +25,9 @@ body {
 
 .card {
     color: darkslategrey;
+    font-size: 0.8rem;
     height: auto;
     max-width: 100%;
-    width: 345px;
 }
 
 .project {
