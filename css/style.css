@@ -10,6 +10,10 @@ body {
     padding-top: 50px;
 }
 
+footer {
+    padding: 1.5rem;
+}
+
 .cover-caption {
     padding-top: -50px;
 }
@@ -31,7 +35,6 @@ body {
 }
 
 .project {
-    padding-bottom: 50px;
     /* Provide clearance for fixed navbar (50px) */
     padding-top: 50px;
 }
