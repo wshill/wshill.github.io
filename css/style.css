@@ -10,6 +10,14 @@ body {
     padding-top: 50px;
 }
 
+footer {
+    padding: 1.5rem;
+}
+
+.cover-caption {
+    padding-top: -50px;
+}
+
 .header {
     align-items: center;
     background-size: cover;
@@ -21,13 +29,12 @@ body {
 
 .card {
     color: darkslategrey;
+    font-size: 0.8rem;
     height: auto;
     max-width: 100%;
-    width: 345px;
 }
 
 .project {
-    padding-bottom: 50px;
     /* Provide clearance for fixed navbar (50px) */
     padding-top: 50px;
 }

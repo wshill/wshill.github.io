@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,47 +13,49 @@
 
 </head>
 
-<nav id="nav-main" class="navbar navbar-toggleable-md fixed-top navbar-inverse bg-primary">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+<body id="top">
+
+    <nav id="nav-main" class="navbar navbar-toggleable-md fixed-top navbar-inverse bg-primary">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-    <a href="#" class="navbar-brand">Your Logo</a>
-    <div id="navbarContent" class="collapse navbar-collapse">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a href="http://wshill.github.io" class="nav-link"><i class="fa fa-github"></i></a>
-            </li>
-            <li class="nav-item">
-                <a href="https://www.facebook.com/hill.wscott" class="nav-link"><i class="fa fa-facebook"></i></a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link disabled"><i class="fa fa-info-circle"></i></a>
-            </li>
+        <a href="#" class="navbar-brand">Your Logo</a>
+        <div id="navbarContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a href="#cover-caption" class="nav-link">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="http://wshill.github.io" class="nav-link"><i class="fa fa-github"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.facebook.com/hill.wscott" class="nav-link"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link disabled"><i class="fa fa-info-circle"></i></a>
+                </li>
 
-            <!--Navbar Dropdown Project List-->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="#opencart">OpenCart</a>
-                    <a class="dropdown-item" href="#drupal">Drupal 7</a>
-                    <a class="dropdown-item" href="#concrete5">Concrete5</a>
-                </div>
-            </li>
-        </ul>
+                <!--Navbar drop down Project List-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#opencart">OpenCart</a>
+                        <a class="dropdown-item" href="#drupal">Drupal 7</a>
+                        <a class="dropdown-item" href="#concrete5">Concrete5</a>
+                    </div>
+                </li>
+            </ul>
 
-        <!--Search Form-->
-        <form action="" class="form-inline my2 my-lg-0">
-            <input type="text" class="form-control mr-sm-2" placeholder="Search">
-            <i class="fa fa-search fa-inverse"></i>
-        </form>
-    </div>
-</nav>
+            <!--Search Form-->
+            <form action="" class="form-inline my2 my-lg-0">
+                <!--TODO: Disabled until I can figure out how to implement an actual search function on the page or I decide to omit it from the navbar, whichever happens first.-->
+                <input type="text" class="form-control mr-sm-2" placeholder="Search" disabled>
+                <i class="fa fa-search fa-inverse"></i>
+            </form>
+        </div>
+    </nav>
 
 
-<body>
     <section id="header" class="header">
         <div id="cover-caption">
             <div class="container">
@@ -70,7 +72,7 @@
         <div class="section-content">
             <div class="container">
                 <h2>What I've Done</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam culpa corporis quis molestias, expedita quo? Ex ea perspiciatis officia quos, laboriosam velit deserunt ab debitis, architecto ad beatae natus fuga.</p>
+                <p class="lead">These are some of the projects I have completed. All of the layout and design are mine, and in many cases the graphics design is mine as well. Explains a lot, I know, but I never claimed to be a graphic artist. Check these out and reach out with any questions or comments you may have. Enjoy!</p>
 
                 <!--Card Deck for project thumbnails.-->
                 <div class="row">
@@ -82,7 +84,8 @@
                                 <a href="#opencart"><img src="/images/charms.png" alt="open cart project thumbnail" class="card-img-top img-thumbnail"></a>
                                 <div class="card-block">
                                     <h5 class="card-title">OpenCart</h5>
-                                    <p class="card-text">This is an ecommerce site designed and built on OpenCart The site was inteded to provide an outlet for fan merchandise and special offerings of the author such as signed copies of books, custom beverage mugs, t-shirts, et.</p>
+                                    <p class="card-text">This is a sample e-commerce site built on OpenCart. The site was intended to provide an outlet for fan merchandise and special offerings of the author such as signed copies of books, custom beverage mugs, t-shirts, et. The transaction portion is currently disabled as the client decided against deploying due to low sales numbers on the merchandise.
+                                    </p>
                                 </div>
                             </div>
 
@@ -91,7 +94,7 @@
                                 <a href="#drupal"><img src="/images/storywitch.png" alt="drupal project thumbnail" class="img-thumbnail"></a>
                                 <div class="card-block">
                                     <h5 class="card-title">Drupal</h5>
-                                    <p class="card-text">An author site built on Drupal 7 providing easy navigation through the authors series of books allowing the user to drill down to a specific title while also having access to chronology, free excerpts, etc. The banner incorporates a Javascript image slider featuring slide indicators and rotates through six banner images. </p>
+                                    <p class="card-text">This is a live author site built on Drupal 7 providing easy navigation through the authors series of books allowing the user to drill down to a specific title, provides social links, displays free excerpts, etc. The site wide banner incorporates a Javascript image slider that cycles through six banner images and features clickable slide indicators.</p>
                                 </div>
                             </div>
 
@@ -100,7 +103,7 @@
                                 <a href="#concrete5"><img src="/images/wshill.png" alt="concrete5 project thumbnail" class="card-img-top img-thumbnail"></a>
                                 <div class="card-block">
                                     <h5 class="card-title">Concrete5</h5>
-                                    <p class="card-text">This is a site I designed to promote my own mechanical design business. It's intentionally spartan and clean, focusing on presenting a brief description of the business, services available, and showcasing completed mechanical design projects.</p>
+                                    <p class="card-text">This is a site I built on Concrete5 CMS to promote my own mechanical design business. It's intentionally spartan and clean, focusing on presenting a brief description of the business, services available, and showcasing completed mechanical design projects.</p>
                                 </div>
 
                             </div>
@@ -112,44 +115,56 @@
     </section>
 
     <!--OpenCart Project Section-->
-
     <section id="opencart" class="project">
-        <div class="container">
+        <div class="container text-center">
             <div class="col-sm-12">
                 <h1 class="display-4">Story Witch Charms &amp; Wards</h1>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eius quo deserunt similique nemo enim alias ut ex laborum repellendus quas, earum asperiores aperiam molestias rem iusto, eveniet recusandae, hic!</p>
+                <p class="text-justify">This is a sample e-commerce site built on OpenCart. The site was intended to provide an outlet for fan merchandise and special offerings of the author such as signed copies of books, custom beverage mugs, t-shirts, et. The transaction portion is currently disabled as the client decided against deploying due to low sales numbers on the merchandise. OpenCart is a fairly simple front end to deploy and the marketplace offers a plethora of backend solutions including integration with USPS, FedEx, UPS, etc. for shipping estimates, integration with payment transaction providers such as Square and Pay Pal, etc.</p>
                 <a href="http://shop.storywitch.com" title="http://shop.storywitch.com"><img src="/images/charms-900px.png" alt="opencart project image" class="img-fluid mx-auto d-block"></a>
             </div>
+            <footer>
+                <p><a href="#top" class="btn btn-outline-secondary btn-sm" role="button">&uarr; Back to top &uarr;</a></p>
+            </footer>
         </div>
     </section>
 
     <!--Drupal Project Section-->
-
     <section id="drupal" class="project">
-        <div class="container">
+        <div class="container text-center">
             <div class="col text-center">
                 <h1 class="display-4">StoryWitch.com</h1>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eius quo deserunt similique nemo enim alias ut ex laborum repellendus quas, earum asperiores aperiam molestias rem iusto, eveniet recusandae, hic!</p>
+                <p class="text-justify">This is a live author site built on Drupal 7 providing easy navigation through the authors series of books allowing the user to drill down to a specific title, provides social links, displays free excerpts, etc. The drop down menu provides links to series pages for each series of books presenting them in their reverse chronological order. Clicking on the book title opens up the full page for the book and includes an excerpt from the book as well as format specific buy links for the title. Most of the content layout is HTML while the portions that remain constant from page to page are blocks or theme built-ins. The theme was designed using Artisteer and has been updated and upgraded numerous times as required by the needs of the site. While Drupal is a durable and robust CMS, it's not necessarily the most user friendly I've seen. That said, Drupal 8 is showing much promise and is making strides toward addressing some of the user issues and shortening the deployment cycle for fixes and upgrades. A back burner project is to transition the site over to Drupal 8, which is not a trivial undertaking at present.</p>
                 <a href="http://storywitch.com" title="http://storywitch.com"><img src="/images/storywitch-900px.png" alt="drupal project image" class="img-fluid mx-auto d-block"></a>
             </div>
+            <footer>
+                <p><a href="#top" class="btn btn-outline-secondary btn-sm" role="button">&uarr; Back to top &uarr;</a></p>
+            </footer>
+
         </div>
     </section>
 
     <!--Concrete5 Project Section-->
     <section id="concrete5" class="project">
-        <div class="container">
+        <div class="container text-center">
             <div class="col-sm-12">
                 <h1 class="display-4">W.S. Hill Mechanical Design</h1>
-                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eius quo deserunt similique nemo enim alias ut ex laborum repellendus quas, earum asperiores aperiam molestias rem iusto, eveniet recusandae, hic!</p>
+                <p class="text-justify">This is a site I built on Concrete5 CMS to promote my own mechanical design business. It's intentionally spartan and clean, focusing on presenting a brief description of the business, services available, and showcasing completed mechanical design projects. Concrete5 showed a lot of promise early on, but seems to have lost it's way over the past few years, along with a considerable portion of it's user base. That said, it's still a very strong CMS and can handle most anything you can throw at it.</p>
                 <a href="http://wshill.com" title="http://wshill.com"><img src="/images/wshill-900px.png" alt="concrete5 project image" class="img-fluid mx-auto d-block"></a>
             </div>
+            <footer>
+                <a href="#top" class="btn btn-outline-secondary btn-sm" role="button">&uarr; Back to top &uarr;</a>
+            </footer>
         </div>
     </section>
+
+    <!--TODO:  Add 'About Me/Contact' form section and link to info icon in navbar.-->
+    <!--TODO:  Include 'return to top' link at the base of 'About Me/Contact' section.-->
 
     <!-- Script import section. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
