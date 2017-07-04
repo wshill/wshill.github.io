@@ -1,0 +1,81 @@
+$text-color: #2f4f4f
+$inv-text-color: #fff
+$nav-bar-font: rgba(255, 255, 255, 1)
+$body-background-color: #add8e6
+$form-background-color: #3277dc
+$border-color: #000
+
+body
+  background: url('/images/dorado.jpg') no-repeat center center fixed
+  background-color: $body-background-color
+  color: $inv-text-color
+  height: auto
+  max-width: 100%
+
+  //Provide clearance for fixed navbar (50px)
+  padding-top: 50px
+
+footer
+  padding: 1.5rem
+
+.contact-form
+  background-color: $form-background-color
+  border: solid 2px $border-color
+  border-radius: 10px
+  color: $inv-text-color
+  display: table
+  margin-left: auto
+  margin-right: auto
+  padding: 10px
+  //Provide clearance for fixed navbar (50px)
+  // padding-top: -50px
+
+  .row
+    display: table-row
+
+    label
+      display: table-cell
+      padding: 2px
+      text-align: right
+
+    input
+      display: table-cell
+      margin-top: 10px
+      // padding: 2px
+
+    button
+      display: table-cell
+      margin-top: 20px
+      padding: 5px
+
+.form-footer
+  padding-top: 15px
+
+.logo
+  height: auto
+  max-width: 50px
+
+.nav-link
+  color: $nav-bar-font !important
+
+.cover-caption
+  //Provide clearance for fixed navbar (50px)
+  padding-top: -50px
+
+.header
+  align-items: center
+  background-size: cover
+  display: flex
+  height: 100%
+  justify-content: center
+  text-align: center
+
+.card
+  color: $text-color
+  font-size: .8rem
+  height: auto
+  max-width: 100%
+
+.project
+  //Provide clearance for fixed navbar (50px)
+  padding-top: 50px
