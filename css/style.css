@@ -9,6 +9,32 @@ body {
 footer {
   padding: 1.5rem; }
 
+.contact-form {
+  background-color: #3277dc;
+  border: solid 2px #000;
+  border-radius: 10px;
+  color: #fff;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px; }
+  .contact-form .row {
+    display: table-row; }
+    .contact-form .row label {
+      display: table-cell;
+      padding: 2px;
+      text-align: right; }
+    .contact-form .row input {
+      display: table-cell;
+      margin-top: 10px; }
+    .contact-form .row button {
+      display: table-cell;
+      margin-top: 20px;
+      padding: 5px; }
+
+.form-footer {
+  padding-top: 15px; }
+
 .logo {
   height: auto;
   max-width: 50px; }
