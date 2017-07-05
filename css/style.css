@@ -39,8 +39,8 @@ footer {
   height: auto;
   max-width: 50px; }
 
-.nav-link {
-  color: white !important; }
+.navbar-inverse .navbar-nav .nav-link {
+  color: white; }
 
 .cover-caption {
   padding-top: -50px; }
